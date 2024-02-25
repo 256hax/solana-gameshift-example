@@ -30,7 +30,9 @@ registerUser(email);
 /*
 % ts-node src/<THIS_FILE>
 
-referenceId: '132bc999-b3ef-4de5-8265-3c72b7c69cd4',
-address: 'AUf9whyJe3eKB6A5kqk6eFHNW7gsyqLygnwNAjDYoXDF',
-email: 'test@example.com'
+{
+  referenceId: '47e33b63-ad72-4968-aace-f5ce0e3fb3a8',
+  address: 'Dub7RWQomW86ctP1NQDdZ5enUExbJt46Fve8be9cWuD8',
+  email: 'test@example.com'
+}
 */
