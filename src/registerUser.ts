@@ -7,7 +7,7 @@ export const registerUser = async (email: string) => {
   const gameshiftApiKey = process.env.GAMESHIFT_API_KEY;
   if (!gameshiftApiKey) throw new Error('gameshiftApiKey not found.');
 
-  const url = 'https://api.gameshift.dev/users';
+  const url = 'https://api.gameshift.dev/v2/users';
 
   const data = {
     referenceId: uuidv4(),
