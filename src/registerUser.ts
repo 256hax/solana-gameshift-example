@@ -16,6 +16,7 @@ export const registerUser = async (email: string) => {
 
   const config = {
     headers: {
+      accept: 'application/json',
       'x-api-key': gameshiftApiKey,
     },
   };
