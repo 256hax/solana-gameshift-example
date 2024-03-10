@@ -53,7 +53,7 @@ createAsset();
 % ts-node src/<THIS_FILE>
 
 {
-  id: '826ea05f-c62c-4e62-9d0e-0eba87ca0eaa',
+  id: '4b3b0f89-4d1d-4094-9ed7-fa7b89969a4a',
   collection: {
     id: 'f44e0abc-43e4-4f51-9d04-237e73364ea9',
     name: 'My Collection',
@@ -64,7 +64,7 @@ createAsset();
     mintAddress: '',
     created: 1708837136009
   },
-  created: 1708874379712,
+  created: 1710045521392,
   attributes: [ { value: 'Animal', traitType: 'Category' } ],
   name: 'My an NFT',
   description: 'my description',

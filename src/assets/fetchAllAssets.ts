@@ -33,6 +33,34 @@ fetchAllAssetCollections();
 {
   data: [
     {
+      id: '4b3b0f89-4d1d-4094-9ed7-fa7b89969a4a',
+      collection: {
+        id: 'f44e0abc-43e4-4f51-9d04-237e73364ea9',
+        name: 'My Collection',
+        description: 'My Description of Collection',
+        environment: 'Development',
+        imageUrl: 'https://cloudflare-ipfs.com/ipfs/QmQXZHrQVAc3eWx7E5HLgZ33z3VtKYj8YyGDe746BqjbmH',
+        imported: false,
+        mintAddress: '',
+        created: 1708837136009
+      },
+      created: 1710045521392,
+      attributes: [ { value: 'Animal', traitType: 'Category' }, [length]: 1 ],
+      name: 'My an NFT',
+      description: 'my description',
+      environment: 'Development',
+      escrow: false,
+      imageUrl: 'https://fastly.picsum.photos/id/971/200/200.jpg?hmac=xcJY-VNIH_UD01lMlLi4mADmQrLTgoEE2_NYEhL3VQA',
+      imported: false,
+      priceCents: null,
+      status: 'Committed',
+      mintAddress: '4BCRbG5m4DYT3Coxz29S3ePmjrCsnPqdKNEphpoK23HW',
+      owner: {
+        address: 'AUf9whyJe3eKB6A5kqk6eFHNW7gsyqLygnwNAjDYoXDF',
+        referenceId: '132bc999-b3ef-4de5-8265-3c72b7c69cd4'
+      }
+    },
+    {
       id: '826ea05f-c62c-4e62-9d0e-0eba87ca0eaa',
       collection: {
         id: 'f44e0abc-43e4-4f51-9d04-237e73364ea9',
@@ -45,12 +73,12 @@ fetchAllAssetCollections();
         created: 1708837136009
       },
       created: 1708874379712,
-      attributes: [ { value: 'Animal', traitType: 'Category' }, [length]: 1 ],
+      attributes: [ { value: 'Fruits', traitType: 'Category' }, [length]: 1 ],
       name: 'My an NFT',
       description: 'my description',
       environment: 'Development',
       escrow: false,
-      imageUrl: 'https://fastly.picsum.photos/id/971/200/200.jpg?hmac=xcJY-VNIH_UD01lMlLi4mADmQrLTgoEE2_NYEhL3VQA',
+      imageUrl: 'https://fastly.picsum.photos/id/625/200/300.jpg?hmac=UsuVBhEWUK8nKZTPbU9D1_ENYqppSfiLsX8SIHskOfw',
       imported: false,
       priceCents: null,
       status: 'Committed',
@@ -87,8 +115,8 @@ fetchAllAssetCollections();
         referenceId: '47e33b63-ad72-4968-aace-f5ce0e3fb3a8'
       }
     },
-    [length]: 2
+    [length]: 3
   ],
-  meta: { page: 1, perPage: 50, totalPages: 1, totalResults: 2 }
+  meta: { page: 1, perPage: 50, totalPages: 1, totalResults: 3 }
 }
 */

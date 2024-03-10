@@ -19,7 +19,7 @@ export const fetchUserAssets = async (referenceId: string) => {
   console.log('%o', res.data);
 };
 
-const referenceId = '47e33b63-ad72-4968-aace-f5ce0e3fb3a8'
+const referenceId = '132bc999-b3ef-4de5-8265-3c72b7c69cd4'
 fetchUserAssets(referenceId);
 
 /*
