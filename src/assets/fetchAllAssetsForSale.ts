@@ -1,7 +1,7 @@
 import * as dotenv from 'dotenv';
 import axios from 'axios';
 
-export const fetchAllAssetCollections = async () => {
+export const fetchAllAssetsForSale = async () => {
   dotenv.config();
   const gameshiftApiKey = process.env.GAMESHIFT_API_KEY;
   if (!gameshiftApiKey) throw new Error('gameshiftApiKey not found.');
@@ -27,7 +27,7 @@ export const fetchAllAssetCollections = async () => {
   console.log('%o', res.data);
 };
 
-fetchAllAssetCollections();
+fetchAllAssetsForSale();
 
 /*
 % ts-node src/<THIS_FILE>

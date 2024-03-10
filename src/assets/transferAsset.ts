@@ -1,7 +1,7 @@
 import * as dotenv from 'dotenv';
 import axios from 'axios';
 
-export const createAsset = async () => {
+export const transferAsset = async () => {
   dotenv.config();
   const gameshiftApiKey = process.env.GAMESHIFT_API_KEY;
   if (!gameshiftApiKey) throw new Error('gameshiftApiKey not found.');
@@ -31,7 +31,7 @@ export const createAsset = async () => {
   }
 };
 
-createAsset();
+transferAsset();
 
 /*
 % ts-node src/<THIS_FILE>
