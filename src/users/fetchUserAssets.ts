@@ -1,11 +1,12 @@
 import * as dotenv from 'dotenv';
 import axios from 'axios';
 
-export const fetchUserAssets = async (referenceId: string) => {
+export const fetchUserAssets = async () => {
   dotenv.config();
   const gameshiftApiKey = process.env.GAMESHIFT_API_KEY;
   if (!gameshiftApiKey) throw new Error('gameshiftApiKey not found.');
 
+  const referenceId = '132bc999-b3ef-4de5-8265-3c72b7c69cd4';
   const url = `https://api.gameshift.dev/users/${referenceId}/assets`;
 
   const headers = {
@@ -19,8 +20,7 @@ export const fetchUserAssets = async (referenceId: string) => {
   console.log('%o', res.data);
 };
 
-const referenceId = '132bc999-b3ef-4de5-8265-3c72b7c69cd4'
-fetchUserAssets(referenceId);
+fetchUserAssets();
 
 /*
 % ts-node src/<THIS_FILE>

@@ -2,13 +2,14 @@ import * as dotenv from 'dotenv';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 
-export const registerUser = async (email: string) => {
+export const registerUser = async () => {
   dotenv.config();
   const gameshiftApiKey = process.env.GAMESHIFT_API_KEY;
   if (!gameshiftApiKey) throw new Error('gameshiftApiKey not found.');
 
   const url = 'https://api.gameshift.dev/v2/users';
 
+  const email = 'test@example.com';
   const data = {
     referenceId: uuidv4(),
     email: email,
@@ -25,8 +26,7 @@ export const registerUser = async (email: string) => {
   console.log(res.data);
 };
 
-const email = 'test@example.com';
-registerUser(email);
+registerUser();
 
 /*
 % ts-node src/<THIS_FILE>
