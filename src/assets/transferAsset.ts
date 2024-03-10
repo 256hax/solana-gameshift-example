@@ -1,4 +1,3 @@
-// Docs: https://docs.gameshift.dev/reference/assetcontroller_transfer
 import * as dotenv from 'dotenv';
 import axios from 'axios';
 
